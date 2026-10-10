@@ -1,69 +1,88 @@
-# Prerequisites
-*.d
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosversion
+*.suo
+*.cache
+*.DotSettings.user
+*.aps
+*.ncb
+*.sdf
+*.filters
+*.opensdf
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.suo
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
+*.exe
+*.dll
 *.pdb
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
 build/
-Build/
+**/build/
+*_build-*/
 build-*/
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+.qtc/
+*.qmlc
+*.jsc
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
+*.o
+*.obj
+*.lst
+*.map
+*.sym
+*.out
 
-# Temporary files
-*.tmp
 *.log
-*.bak
+.DS_Store
+Thumbs.db
+
+*.class
+
+.settings/
+.project
+.classpath
+
+.DS_Store
+Thumbs.db
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.env
+.venv
+env/
+venv/
+ENV/
+
+.idea/
+.vscode/
 *.swp
+*.swo
 
-# vcpkg
-vcpkg_installed/
+.DS_Store
+Thumbs.db
 
-# debug information files
-*.dwo
+*.class
 
-# test output & cache
-Testing/
-.cache/
+bin/
+
+*.jar
+
+.idea/
+.vscode/
+*.iml
+
+.DS_Store
+
+Properties/
