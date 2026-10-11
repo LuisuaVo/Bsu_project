@@ -22,11 +22,12 @@ programming in C++
 
 | # | Folder | Topic | Stack |
 |---|--------|-------|-------|
-| 1 | [`1laba/`](./1laba/) | _Topic of lab 1_ | C++ |
+| 1 | [`1laba/`](./1laba/) | Calculating sin(x) using a Taylor series | C++ |
 | 2 | [`2laba/`](./2laba/) | _Topic of lab 2_ | C++ |
 | 3 | [`3laba/`](./3laba/) | Work with a static massive | C++ |
 | 4 | [`4laba/`](./4laba/) | Sort matrix, max element | C++ |
 | 5 | [`matrixsled/`](./matrixsled/) | Search for the matrix trace | C++ |
+| 6 | [`Polindrome/`](./Polindrome/) | Determine whether a number is a palindrome | C++ |
 
 ## 🛠️ Technologies & Tools
 
@@ -69,11 +70,12 @@ g++ -std=c++17 filename.cpp -o program
 
 | № | Папка | Тема | Стек |
 |---|-------|------|------|
-| 1 | [`1laba/`](./1laba/) | _Тема лабораторной №1_ | C++ |
+| 1 | [`1laba/`](./1laba/) | Вычисление sinx через ряд Тейлора | C++ |
 | 2 | [`2laba/`](./2laba/) | _Тема лабораторной №2_ | C++ |
 | 3 | [`3laba/`](./3laba/) | Работа со статической матрицей | C++ |
 | 4 | [`4laba/`](./4laba/) | Сортировка матрицы, поиск максимального элемента | C++ |
 | 5 | [`matrixsled/`](./matrixsled/) | Поиск следа матрицы | C++ |
+| 6 | [`Polindrome/`](./Polindrome/) | Узнать является ли число полиндромом | C++ |
 
 ## 🛠️ Технологии и инструменты
 
