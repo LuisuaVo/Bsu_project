@@ -17,4 +17,7 @@ int main()
 		n = n + 2;
 	}
 	cout << "sin(x)=" << sinx;
+	cout << "std sin(x)      = " << sin(x) << endl;
+	cout << "Difference      = " << abs(sinx - sin(x)) << endl;
+	return 0;
 }
