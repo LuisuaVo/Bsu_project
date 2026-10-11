@@ -11,7 +11,7 @@ This folder contains laboratory work and academic projects assigned to
 **first-semester students** in the **Programming** course, written in **C++**.
 
 All assignments were completed as part of the **FAMCS** program at 
-**Belarusian State University**, majoring in **Applied Informatics**.
+**Belarusian State University**, majoring in **Computer Science**.
 
 ## 🎯 About the Semester
 
