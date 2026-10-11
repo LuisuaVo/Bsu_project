@@ -3,7 +3,7 @@
 using namespace std;
 
 int minEl(int* arr, int n);
-int sum_do_nul(int* arr, int n);
+void sum_do_nul(int* arr, int n);
 void krat(int* arr, int n);
 void get_mass(int* arr, int n);
 void enter_mass_klav(int* arr, int n);
@@ -16,7 +16,7 @@ int main()
 	int n;
 	cout << "Enter razmer massiva: ";
 	cin >> n;
-	if (n > MAX || n<1)
+	if (n > MAX || n < 1)
 		cout << "Something went wrong!";
 	else
 	{
@@ -36,17 +36,12 @@ int main()
 		cout << endl;
 
 		int min = minEl(arr, n);
-		if (min!=0)
+		if (min != 0)
 			cout << "Minimum dvyxznachny element: " << min << endl;
 		else
-			cout << "Net dvyxznach elementov"<< endl;
+			cout << "Net dvyxznach elementov" << endl;
 
-		int s = sum_do_nul(arr, n);
-
-		if (s!=0)
-			cout << "Summa elementov do nula: " << s << endl;
-		else 
-			cout << "Summ doesn't exist!"<< endl;
+		sum_do_nul(arr, n);
 
 		if (n < 3)
 			get_mass(arr, n);
@@ -83,9 +78,9 @@ int minEl(int* arr, int n)
 	return (flag ? min : 0);
 }
 
-int sum_do_nul(int* arr, int n)
+void sum_do_nul(int* arr, int n)
 {
-	int nom = n-1;
+	int nom = n - 1;
 	int flag = 1;
 	int estnol = 0;
 	int i = n - 1;
@@ -111,7 +106,9 @@ int sum_do_nul(int* arr, int n)
 			sum += arr[j];
 		}
 	}
-	return (estnol? sum:0);
+	if (estnol)
+		cout << "Summa do null: " << sum << endl;
+	else cout << "Summ doesn't exist" << endl;
 }
 
 void krat(int* arr, int n)
@@ -123,7 +120,7 @@ void krat(int* arr, int n)
 		if (k % 3 == 0)
 		{
 			int x; long i, j;
-			for (int i = k; i > kolkrat ; i--)
+			for (int i = k; i > kolkrat; i--)
 			{
 				x = arr[i - 1];
 				arr[i - 1] = arr[i];
