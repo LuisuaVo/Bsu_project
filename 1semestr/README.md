@@ -24,8 +24,9 @@ programming in C++
 |---|--------|-------|-------|
 | 1 | [`1laba/`](./1laba/) | _Topic of lab 1_ | C++ |
 | 2 | [`2laba/`](./2laba/) | _Topic of lab 2_ | C++ |
-| 3 | [`3laba/`](./3laba/) | _Topic of lab 3_ | C++ |
-| 4 | [`4laba/`](./4laba/) | Sort matrix | C++ |
+| 3 | [`3laba/`](./3laba/) | Work with a static massive | C++ |
+| 4 | [`4laba/`](./4laba/) | Sort matrix, max element | C++ |
+| 5 | [`matrixsled/`](./matrixsled/) | Search for the matrix trace | C++ |
 
 ## 🛠️ Technologies & Tools
 
@@ -70,8 +71,9 @@ g++ -std=c++17 filename.cpp -o program
 |---|-------|------|------|
 | 1 | [`1laba/`](./1laba/) | _Тема лабораторной №1_ | C++ |
 | 2 | [`2laba/`](./2laba/) | _Тема лабораторной №2_ | C++ |
-| 3 | [`3laba/`](./3laba/) | _Тема лабораторной №3_ | C++ |
-| 4 | [`4laba/`](./4laba/) | Сортировка матрицы | C++ |
+| 3 | [`3laba/`](./3laba/) | Работа со статической матрицей | C++ |
+| 4 | [`4laba/`](./4laba/) | Сортировка матрицы, поиск максимального элемента | C++ |
+| 5 | [`matrixsled/`](./matrixsled/) | Поиск следа матрицы | C++ |
 
 ## 🛠️ Технологии и инструменты
 
