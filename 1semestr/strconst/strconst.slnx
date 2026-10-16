@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="strconst/strconst.vcxproj" Id="11c2f839-94bc-4ed3-bc47-5bae04d12f1a" />
+</Solution>
