@@ -41,11 +41,11 @@ trace(A) = a₁₁ + a₂₂ + a₃₃ + ... + aₙₙ
 ## 🗂️ Структура проекта
 
 ```
-labaN/
-├── labaN.sln               # Solution (Visual Studio)
-├── labaN/
-│   ├── labaN.cpp           # Исходный код
-│   └── labaN.vcxproj       # Файл проекта
+matrixsled/
+├── matrixsled.sln               # Solution (Visual Studio)
+├── matrixsled/
+│   ├── matrixsled.cpp           # Исходный код
+│   └── matrixsled.vcxproj       # Файл проекта
 └── README.md               # Этот файл
 ```
 
@@ -376,7 +376,7 @@ i=3    ·    ·    ·    ●       ← mas[3][3]
 Или через консоль:
 
 ```bash
-g++ -std=c++17 laba.cpp -o program
+g++ -std=c++17 matrixsled.cpp -o program
 ./program
 ```
 ## 💻 Пример работы
