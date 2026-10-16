@@ -29,6 +29,8 @@ programming in C++
 | 5 | [`5laba/`](./5laba/) | Work with string | C++ |
 
 ## 📂 List of tasks for independent work
+| # | Folder | Topic | Stack |
+|---|--------|-------|-------|
 | 1 | [`matrixsled/`](./matrixsled/) | Search for the matrix trace | C++ |
 | 2 | [`Polindrome/`](./Polindrome/) | Determine whether a number is a palindrome | C++ |
 | 3 | [`strconst/`](./strconst/) | Finding valid C++ numeric constants | C++ |
