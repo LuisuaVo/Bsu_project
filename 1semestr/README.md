@@ -26,8 +26,12 @@ programming in C++
 | 2 | [`2laba/`](./2laba/) | _Topic of lab 2_ | C++ |
 | 3 | [`3laba/`](./3laba/) | Work with a static massive | C++ |
 | 4 | [`4laba/`](./4laba/) | Sort matrix, max element | C++ |
-| 5 | [`matrixsled/`](./matrixsled/) | Search for the matrix trace | C++ |
-| 6 | [`Polindrome/`](./Polindrome/) | Determine whether a number is a palindrome | C++ |
+| 5 | [`5laba/`](./5laba/) | Work with string | C++ |
+
+## 📂 List of tasks for independent work
+| 1 | [`matrixsled/`](./matrixsled/) | Search for the matrix trace | C++ |
+| 2 | [`Polindrome/`](./Polindrome/) | Determine whether a number is a palindrome | C++ |
+| 3 | [`strconst/`](./strconst/) | Finding valid C++ numeric constants | C++ |
 
 ## 🛠️ Technologies & Tools
 
