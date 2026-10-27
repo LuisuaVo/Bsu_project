@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Testtransf/Testtransf.vcxproj" />
+  <Project Path="unittestvs/unittestvs.vcxproj" Id="a214fba6-7c2a-4c05-9c9d-60714c29c007" />
+</Solution>
