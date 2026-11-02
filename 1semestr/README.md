@@ -1,4 +1,4 @@
-# 📚 Semester 1 / 1 Семестр
+# Semester 1 / 1 Семестр
 
 This folder contains laboratory work and academic projects assigned to 
 **first-semester students** in the **Programming** course, written in **C++**.
@@ -6,7 +6,7 @@ This folder contains laboratory work and academic projects assigned to
 All assignments were completed as part of the **FAMCS** program at 
 **Belarusian State University**, majoring in **Computer Science**.
 
-## 🎯 About the Semester
+## About the Semester
 
 The first semester is all about getting comfortable with the fundamentals of 
 programming in C++
