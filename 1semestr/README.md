@@ -33,24 +33,3 @@ programming in C++
 | 6 | [`slianiefail/`](./slianiefail/) | Merging two files containing arrays | C++ |
 | 7 | [`unittestvs/`](./unittestvs/) | Unit-test of laba2 in Visual Studio | C++ |
 
-## 🛠️ Technologies & Tools
-
-| Tool | Purpose |
-|------|---------|
-| **C++** | Main programming language |
-| **Visual Studio** | Development environment |
-| **MSBuild / .slnx** | Project build system |
-| **Git** | Version control |
-
-## 🚀 How to Run Any Lab
-
-1. Open the `.slnx` file inside the desired lab folder
-2. Build the solution — `Ctrl + Shift + B`
-3. Run — `F5`
-
-Or via the console (if a `.cpp` file is present):
-
-```bash
-g++ -std=c++17 filename.cpp -o program
-./program
-```
