@@ -1,12 +1,5 @@
 # 📚 Semester 1 / 1 Семестр
 
-- [🇬🇧 English](#-english)
-- [🇷🇺 Русский](#-русский)
-
----
-
-## 🇬🇧 English
-
 This folder contains laboratory work and academic projects assigned to 
 **first-semester students** in the **Programming** course, written in **C++**.
 
@@ -23,10 +16,11 @@ programming in C++
 | # | Folder | Topic | Stack |
 |---|--------|-------|-------|
 | 1 | [`1laba/`](./1laba/) | Calculating sin(x) using a Taylor series | C++ |
-| 2 | [`2laba/`](./2laba/) | _Topic of lab 2_ | C++ |
+| 2 | [`2laba/`](./2laba/) | Integer arithmetics | C++ |
 | 3 | [`3laba/`](./3laba/) | Work with a static massive | C++ |
 | 4 | [`4laba/`](./4laba/) | Sort matrix, max element | C++ |
 | 5 | [`5laba/`](./5laba/) | Work with string | C++ |
+| 6 | [`6laba/`](./6laba/) | Working with streams | C++ |
 
 ## 📂 List of tasks for independent work
 | # | Folder | Topic | Stack |
@@ -34,6 +28,10 @@ programming in C++
 | 1 | [`matrixsled/`](./matrixsled/) | Search for the matrix trace | C++ |
 | 2 | [`Polindrome/`](./Polindrome/) | Determine whether a number is a palindrome | C++ |
 | 3 | [`strconst/`](./strconst/) | Finding valid C++ numeric constants | C++ |
+| 4 | [`Ysrsort1/`](./Ysrsort1/) | Methods for sorting an array | C++ |
+| 5 | [`matrpot/`](./matrpot/) | Working with streams and matrices | C++ |
+| 6 | [`slianiefail/`](./slianiefail/) | Merging two files containing arrays | C++ |
+| 7 | [`unittestvs/`](./unittestvs/) | Unit-test of laba2 in Visual Studio | C++ |
 
 ## 🛠️ Technologies & Tools
 
@@ -51,54 +49,6 @@ programming in C++
 3. Run — `F5`
 
 Or via the console (if a `.cpp` file is present):
-
-```bash
-g++ -std=c++17 filename.cpp -o program
-./program
-```
-## 🇷🇺 Русский
-
-# 📚 1 Семестр — Проекты по программированию (C++)
-
-В этой папке собраны лабораторные работы и учебные проекты, предложенные 
-**студентам первого семестра** по дисциплине **«Программирование»**, 
-написанные на языке **C++**.
-
-Все задания выполнялись в рамках программы **ФПМИ** 
-**Белорусского государственного университета**, специальность 
-**«Прикладная информатика»**.
-
-## 🎯 О семестре
-
-Первый семестр посвящён знакомству с основами программирования на C++.
-
-## 📂 Список лабораторных работ
-
-| № | Папка | Тема | Стек |
-|---|-------|------|------|
-| 1 | [`1laba/`](./1laba/) | Вычисление sinx через ряд Тейлора | C++ |
-| 2 | [`2laba/`](./2laba/) | _Тема лабораторной №2_ | C++ |
-| 3 | [`3laba/`](./3laba/) | Работа со статической матрицей | C++ |
-| 4 | [`4laba/`](./4laba/) | Сортировка матрицы, поиск максимального элемента | C++ |
-| 5 | [`matrixsled/`](./matrixsled/) | Поиск следа матрицы | C++ |
-| 6 | [`Polindrome/`](./Polindrome/) | Узнать является ли число полиндромом | C++ |
-
-## 🛠️ Технологии и инструменты
-
-| Инструмент | Назначение |
-|------------|------------|
-| **C++** | Основной язык программирования |
-| **Visual Studio** | Среда разработки |
-| **MSBuild / .slnx** | Система сборки проектов |
-| **Git** | Контроль версий |
-
-## 🚀 Как запустить любую лабораторную
-
-1. Открыть файл `.slnx` в папке нужной лабораторной работы
-2. Собрать решение — `Ctrl + Shift + B`
-3. Запустить — `F5`
-
-Или через консоль (если есть файл `.cpp`):
 
 ```bash
 g++ -std=c++17 filename.cpp -o program
