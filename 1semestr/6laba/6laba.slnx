@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="6laba/6laba.vcxproj" Id="c44b0c8a-8684-42dc-9e9b-7c52741945e3" />
+</Solution>
