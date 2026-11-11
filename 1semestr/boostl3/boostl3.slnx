@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="boostl3/boostl3.vcxproj" />
+  <Project Path="boost_laba3_test1/boost_laba3_test1.vcxproj" />
+</Solution>
