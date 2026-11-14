@@ -3,6 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="boostl3/boostl3.vcxproj" />
-  <Project Path="boost_laba3_test1/boost_laba3_test1.vcxproj" />
+  <Project Path="boostl3/boostl3.vcxproj" Id="f6197aa0-d801-4703-b177-fe305e8fd09e" />
+  <Project Path="boost_laba3_test1/boost_laba3_test1.vcxproj" Id="b4fdd17c-a77f-435f-8815-9a287f118189" />
 </Solution>

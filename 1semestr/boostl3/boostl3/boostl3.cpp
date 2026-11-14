@@ -8,57 +8,8 @@ void krat(int* arr, int n);
 void get_mass(int* arr, int n);
 void enter_mass_klav(int* arr, int n);
 void enter_mass_rand(int* arr, int n);
-void mainprog();
+void mprogr();
 
-int main()
-{
-	mainprog();
-	return 0;
-}
-
-void mainprog()
-{
-	const int MAX = 100;
-	int arr[MAX];
-	int n;
-	cout << "Enter razmer massiva: ";
-	cin >> n;
-	if (n > MAX || n < 1)
-		cout << "Something went wrong!";
-	else
-	{
-		int yes;
-		cout << "How you want to zapolnit massive? (klaviatyra - 0; random - 1): ";
-		cin >> yes;
-		if (!yes)
-		{
-			enter_mass_klav(arr, n);
-		}
-		else
-		{
-			enter_mass_rand(arr, n);
-		}
-		cout << "Massive: ";
-		get_mass(arr, n);
-		cout << endl;
-
-		int min = minEl(arr, n);
-		if (min != 0)
-			cout << "Minimum dvyxznachny element: " << min << endl;
-		else
-			cout << "Net dvyxznach elementov" << endl;
-
-		sum_do_nul(arr, n);
-
-		if (n < 3)
-			get_mass(arr, n);
-		else
-		{
-			krat(arr, n);
-			get_mass(arr, n);
-		}
-	}
-}
 
 int minEl(int* arr, int n)
 {
@@ -164,5 +115,48 @@ void enter_mass_rand(int* arr, int n)
 	for (int i = 0; i < n; i++)
 	{
 		arr[i] = rand() % c + a;
+	}
+}
+
+void mprogr() {
+	const int MAX = 100;
+	int arr[MAX];
+	int n;
+	cout << "Enter razmer massiva: ";
+	cin >> n;
+	if (n > MAX || n < 1)
+		cout << "Something went wrong!";
+	else
+	{
+		int yes;
+		cout << "How you want to zapolnit massive? (klaviatyra - 0; random - 1): ";
+		cin >> yes;
+		if (!yes)
+		{
+			enter_mass_klav(arr, n);
+		}
+		else
+		{
+			enter_mass_rand(arr, n);
+		}
+		cout << "Massive: ";
+		get_mass(arr, n);
+		cout << endl;
+
+		int min = minEl(arr, n);
+		if (min != 0)
+			cout << "Minimum dvyxznachny element: " << min << endl;
+		else
+			cout << "Net dvyxznach elementov" << endl;
+
+		sum_do_nul(arr, n);
+
+		if (n < 3)
+			get_mass(arr, n);
+		else
+		{
+			krat(arr, n);
+			get_mass(arr, n);
+		}
 	}
 }
